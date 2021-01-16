@@ -1,0 +1,19 @@
+[core]
+	symlinks = false
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	logallrefupdates = false
+[http]
+	sslVerify = true
+[remote "origin"]
+	url = https://github.com/aizazsyed9/jbpm.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	fetch = +refs/tags/*:refs/tags/*
+	fetch = +refs/notes/*:refs/notes/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
